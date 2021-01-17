@@ -159,9 +159,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, "live-static", "static-root")
 #STATIC_ROOT = "/home/cfedeploy/webapps/cfehome_static_root/"
 
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-MEDIA_URL = '/media/'
+MEDIA_URL = "/media/"
 
+MEDIA_ROOT = os.path.join(BASE_DIR, "live-static-files", "media-root")
 
 
 
